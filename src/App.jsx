@@ -58,7 +58,7 @@ function App() {
           cleanTasks={cleanTasks}
         />
 
-        // Utilizamos una condición para mostrar el componente TaskTable solo si showCompleted es verdadero.
+        {/* Utilizamos una condición para mostrar el componente TaskTable solo si showCompleted es verdadero. */}
         {showCompleted && (
           <TaskTable
             tasks={taskItems}
